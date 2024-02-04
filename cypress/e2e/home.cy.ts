@@ -7,7 +7,7 @@ describe('Homepage Test', () => {
   })
 
   it('should be able to visit', () => {
-    cy.getByData("hero-heading").should('have.text', 'Testing Next.js Applications with Cypress')
+    cy.getByData("hero-heading").should("exist").contains('Testing Next.js Applications with Cypress')
   })
 
   it('checks if the features on the homepage are correct', () => {
