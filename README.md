@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-# Real World Testing with Cypress - Course App
-
-This application is for the [Testing your first application course](https://learn.cypress.io/testing-your-first-application) on [learn.cypress.io](https://learn.cypress.io/).
-
-The `start` branch is the main branch for this repo and is the starting point for the course. The [final](https://github.com/cypress-io/cypress-realworld-testing-course-app/tree/final) branch contains the completed tests.
-=======
 # Cypress Test
 
 Este repositório contém testes automatizados para a aplicação fornecida na documentação oficial do Cypress. Os testes foram desenvolvidos como parte do aprendizado e prática com o Cypress.
@@ -33,4 +26,3 @@ Certifique-se de ter as seguintes ferramentas instaladas antes de executar os te
 
    ```npm
    npm install
->>>>>>> 38dd85e42d9e1e3e7206dc8c40ddb4f6692b7c09
