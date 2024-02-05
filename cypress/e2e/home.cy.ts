@@ -25,19 +25,19 @@ describe('Homepage Test', () => {
     it('Should be able to open the first course on the page', () => {
       cy.getByData("course-0").find('a').contains('Get started').click()
       cy.get('.mt-1 > .block').should('exist')
-      cy.location("pathname").should("equal", "/testing-your-first-application")
+      cy.location("pathname").should("eq", "/testing-your-first-application")
     });
 
     it('Should be able to open the second course on the page', () => {
       cy.getByData("course-1").find('a').contains('Get started').click()
       cy.get('.mt-1 > .block').should('exist')
-      cy.location("pathname").should("equal", "/testing-foundations")
+      cy.location("pathname").should("eq", "/testing-foundations")
     });
 
     it('Should be able to open the third course on the page', () => {
       cy.getByData("course-2").find('a').contains('Get started').click()
       cy.get('.mt-1 > .block').should('exist')
-      cy.location("pathname").should("equal", "/cypress-fundamentals")
+      cy.location("pathname").should("eq", "/cypress-fundamentals")
     });
 
   });
